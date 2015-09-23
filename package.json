@@ -1,0 +1,19 @@
+{
+  "name": "require-in-package",
+  "version": "1.0.0",
+  "description": "ESLint rule to require imports to be defined in local package.json",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint fixture.js --rulesdir './rules/'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "findup-sync": "^0.3.0",
+    "recast": "^0.10.32"
+  },
+  "devDependencies": {
+    "eslint": "^1.5.1",
+    "babel-eslint": "^4.1.3"
+  }
+}

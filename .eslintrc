@@ -1,0 +1,18 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "node": true,
+    "es6": true,
+    "mocha": true
+  },
+  "ecmaFeatures": {
+    "modules": true,
+    "jsx": true
+  },
+  // 0 - turn rule off
+  // 1 - rule generates warnings
+  // 2 - rule generates errors
+  "rules": {
+    "require-in-package": 2
+  }
+}
