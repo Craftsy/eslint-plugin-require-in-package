@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-require-in-package",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint rule that validates ES6 imports are defined in local package.json",
   "repository": {
     "type": "git",
@@ -24,7 +24,8 @@
     "test": "mocha"
   },
   "dependencies": {
-    "findup-sync": "^0.3.0"
+    "findup-sync": "^0.3.0",
+    "is-builtin-module": "^1.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^4.1.3",
