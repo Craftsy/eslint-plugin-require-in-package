@@ -7,6 +7,7 @@ var ruleTester = new RuleTester();
 
 
 var valid = [
+    "import fs from 'fs';",
     "import eslint from 'eslint';",
     "import h from './i';",
 ].map(function(code) {
