@@ -13,7 +13,12 @@
     "es6",
     "import"
   ],
-  "author": "Don Abrams",
+  "contributors": [
+    {
+      "name": "Don Abrams",
+      "email": "don.abrams@craftsy.com"
+    }
+  ],
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha"
@@ -23,7 +28,9 @@
     "requireindex": "~1.1.0"
   },
   "devDependencies": {
-    "eslint": "~1.2.0"
+    "babel-eslint": "^4.1.3",
+    "eslint": "~1.2.0",
+    "mocha": "^2.3.3"
   },
   "engines": {
     "node": ">=0.10.0"
