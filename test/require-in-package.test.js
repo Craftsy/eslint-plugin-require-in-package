@@ -10,6 +10,7 @@ var valid = [
     "import fs from 'fs';",
     "import eslint from 'eslint';",
     "import h from './i';",
+    "import api from 'eslint/lib/api';",
 ].map(function(code) {
     return {
         code: code,
@@ -24,6 +25,8 @@ var invalid = [
     "import * as a from 'b';",
     "import c from 'd';",
     "import {e as f} from 'g';",
+    "import api from 'nonexistant/blah';",
+    "import yay from '@craftsy/yay';",
 ].map(function(code) {
     return {
         code: code,
