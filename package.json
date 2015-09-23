@@ -24,8 +24,7 @@
     "test": "mocha"
   },
   "dependencies": {
-    "findup-sync": "^0.3.0",
-    "requireindex": "~1.1.0"
+    "findup-sync": "^0.3.0"
   },
   "devDependencies": {
     "babel-eslint": "^4.1.3",
