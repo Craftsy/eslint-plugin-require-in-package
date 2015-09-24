@@ -1,0 +1,6 @@
+{
+	"dependencies": {
+		"eslint": "1.0.0",
+		"@craftsy/yay": "1.0.0"
+	}
+}

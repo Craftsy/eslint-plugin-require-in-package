@@ -33,8 +33,7 @@ Usage
     "mocha": true
   },
   "ecmaFeatures": {
-    "modules": true,
-    "jsx": true
+    "modules": true
   },
   "plugins": ["require-in-package"],
   // 0 - turn rule off
